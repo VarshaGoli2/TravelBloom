@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBoom</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="travel-recommendation.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="flight.jpg" alt="TravelBoom Logo" class="logo">
+                <span class="brand-name">TravelBoom</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="travel-recommendation.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Enter a destination or keyword" class="search-input">
+                <button class="search-button">
+                    <img src="search.jpg" alt="Search Icon" class="search-icon">
+                </button>
+                <button class="search-action-button">Search</button>
+                <button class="search-action-button" id="clear-button">Clear</button>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="main-container">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Explore<br>Dream<br>Destination</h1>
+                <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
+                while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+                <button class="book-now">Book Now</button>
+            </div>
+        </section>
+    
+        <section id="search-results-container" class="search-results-container">
+            <!-- Search results will be dynamically added here -->
+        </section>
+    </section>
+
+    <aside class="social-media">
+        <a href="https://twitter.com/login" target="_blank"><img src="twitter.jpg" alt="Twitter"></a>
+        <a href="https://facebook.com/login" target="_blank"><img src="facebook.jpg" alt="Facebook"></a>
+        <a href="https://instagram.com/accounts/login" target="_blank"><img src="instagram.jpg" alt="Instagram"></a>
+        <a href="https://youtube.com/signin" target="_blank"><img src="youtube.jpg" alt="YouTube"></a>
+    </aside>
+</body>
+</html>
