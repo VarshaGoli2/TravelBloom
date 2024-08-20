@@ -13,7 +13,7 @@ body, html {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    background: url('travel.jpg') no-repeat center center/cover; /* Unified background */
+    background: url('images/travel.jpg') no-repeat center center/cover; /* Unified background */
     position: relative;
     height: 100vh; /* Ensure full height covers both sections */
     width: 100%;
